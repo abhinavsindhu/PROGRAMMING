@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main()
 {
     int t,f,l;
     long int no;
     scanf("%d",&t);
-    while(t--)
+
     {
         printf("\n");
         scanf("%ld",&no);
