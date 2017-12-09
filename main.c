@@ -8,6 +8,7 @@ int main()
     scanf("%d",&t);
     while(t--)
     {
+        printf("\n");
         scanf("%ld",&no);
         l=no%10;
         while(no>0)
