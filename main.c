@@ -4,6 +4,7 @@
 
 int main()
 {
+    printf("HELLOO GUYS");
     int t,f,l;
     long int no;
     scanf("%d",&t);
@@ -19,7 +20,7 @@ int main()
         }
 
     printf("%d\n",f+l);
-
+   printf("TATA BYE GUYS");
     }
 
     return 0;
