@@ -13,26 +13,35 @@ int main()
         scanf("%s",str);
         while(str[i])
         {
-      for(n=0;n<10;n++)
+      for(n=0;n<12;n++)
       {     if(str[i]<67)
            str[i]=A[0];
            else if(str[i]>113)
-            str[i]=A[9];
+            str[i]=A[11];
            else
             {
+                if(A[n]>str[i])
+        {
             d1=str[i]-A[n];
             d2=A[n+1]-str[i];
-            if(d1<=d2)
-                str[i]=A[n];
+            if(d1<d2)
+               {
+                   str[i]=A[n];
+                   break;
+               }
             else
-                str[i]=A[n+1];
+                {
+                    str[i]=A[n+1];
+                    break;
 
-            }
-
+                }
+        }
 
       }
       }
     }
       printf("%s",str);
-    return 0;
+
+}
+return 0;
 }
