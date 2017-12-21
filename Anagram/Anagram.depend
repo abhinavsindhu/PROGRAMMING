@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1513793721 source:c:\users\kiit\desktop\anagram\main.c
+	<stdio.h>
+	<stdlib.h>
+
